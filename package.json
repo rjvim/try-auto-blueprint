@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "import": "./dist/bp.es.js",
+      "require": "./dist/bp.umd.js"
     },
     "./styles.css": {
       "require": "./dist/styles.css",
