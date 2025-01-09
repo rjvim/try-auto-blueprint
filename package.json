@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0-alpha.24",
+  "version": "1.0.0-alpha.23",
   "type": "module",
   "exports": {
     ".": {
@@ -15,6 +15,9 @@
       "default": "./dist/styles.css"
     }
   },
+  "sideEffects": [
+    "**/*.css"
+  ],
   "files": [
     "dist"
   ],
