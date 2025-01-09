@@ -8,8 +8,8 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/ui.es.js",
-      "require": "./dist/ui.umd.js"
+      "import": "./dist/bp.es.js",
+      "require": "./dist/bp.umd.js"
     },
     "./styles.css": {
       "require": "./dist/styles.css",
