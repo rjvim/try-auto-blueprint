@@ -6,10 +6,12 @@ import pkg from "glob";
 const { glob } = pkg;
 import { fileURLToPath } from "node:url";
 import { extname, relative } from "path";
+import { libInjectCss } from "vite-plugin-lib-inject-css";
 
 export default defineConfig({
   plugins: [
     react(),
+    libInjectCss(),
     dts({
       insertTypesEntry: true,
       exclude: ["**/*.stories.ts", "**/*.test.tsx"],
