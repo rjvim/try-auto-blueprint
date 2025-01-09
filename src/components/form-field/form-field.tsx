@@ -1,5 +1,3 @@
-"use client";
-
 import { Input } from "../input";
 import { Label } from "../label";
 import { useState } from "react";

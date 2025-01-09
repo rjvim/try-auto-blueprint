@@ -1,6 +1,6 @@
 import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
-import { peerDependencies } from "./package.json";
+// import { peerDependencies } from "./package.json";
 import { defineConfig } from "vite";
 
 export default defineConfig({
