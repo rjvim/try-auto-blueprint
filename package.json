@@ -1,6 +1,8 @@
 {
   "name": "@try-auto/blueprint",
-  "public": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0-alpha.0",
   "type": "module",
   "types": "dist/index.d.ts",
